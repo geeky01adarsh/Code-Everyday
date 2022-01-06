@@ -10,7 +10,7 @@ int main(){
         if(!arr[i])
         {
             cout<<i<<" ";
-            for(int j=i*i; j<=num; j+=i)
+            for(int j =i*i; j<=num; j*=i)
             arr[j]=1;
         }
     }
