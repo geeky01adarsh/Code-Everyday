@@ -19,7 +19,7 @@ int main()
         {
             if (int(s[i]) >= 97 && int(s[i]) <= 122)
                 res += s[i];
-            if (int(s[i]) >= 65 && int(s[i]) < = 90)
+            if (int(s[i]) >= 65 && int(s[i]) <= 90)
                 res += s[i];
         }
         cout << res << endl;
