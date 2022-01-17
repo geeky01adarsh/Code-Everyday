@@ -10,11 +10,9 @@ int main()
     while (t--)
     {
         string s;
-        cin>>s;
-        // getline(cin, s);
-        // cin.ignore();
+        getline(cin, s);
+        cin.ignore();
         string res = "";
-        // cout<<s<<endl;
         for (int i = 0; i < s.length(); i++)
         {
             if (int(s[i]) >= 97 && int(s[i]) <= 122)
